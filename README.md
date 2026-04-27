@@ -126,7 +126,8 @@ d_{lr} = d_l - d_r
 ## Project Files
 
 - `navigation.py` → Navigation logic and control (gap selection + steering)  
-- `barrier.py` → QP-based virtual barrier obstacle avoidance  
+- `barrier.py` → QP-based virtual barrier obstacle avoidance
+- `nav_bonus.py` → Bonus utilizing the RGB-D Camera for enhanced forward detection
 - `occupancygridmap.py` → Probabilistic occupancy grid mapping  
 - `simulator.launch` → Launches the simulation environment  
 - `experiment.launch` → Runs full system setup  
