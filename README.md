@@ -6,6 +6,23 @@ The system runs on an **NVIDIA Jetson Nano**, handling real-time sensor processi
 
 ---
 
+## 🎥 Demo
+
+### Real-World Testing
+![AEV Driving](Demo/demo.gif)
+
+### RViz Visualization
+![RViz](Demo/RVIZ.png)
+
+### Hardware Setup
+![AEV](Demo/AEV1.png)
+![AEV](Demo/AEV2.png)
+![AEV](Demo/AEV3.png)
+
+
+---
+
+
 ## Technologies Used
 
 - **ROS (Robot Operating System)**: Middleware managing nodes, topics, messages, and TF transforms  
