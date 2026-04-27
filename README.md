@@ -6,6 +6,27 @@ The system runs on an **NVIDIA Jetson Nano**, handling real-time sensor processi
 
 ---
 
+## 🎥 Demo
+
+### Real-World Testing
+<p align="center">
+  <img src="Demo/demo.gif" width="300"/>
+</p>
+
+### RViz Visualization
+<p align="center">
+  <img src="Demo/RVIZ.png" width="500"/>
+</p>
+
+### Hardware Setup
+<p align="center">
+  <img src="Demo/AEV1.png" width="500"/>
+  <img src="Demo/AEV2.png" width="300"/>
+</p>
+
+---
+
+
 ## Technologies Used
 
 - **ROS (Robot Operating System)**: Middleware managing nodes, topics, messages, and TF transforms  
@@ -105,7 +126,8 @@ d_{lr} = d_l - d_r
 ## Project Files
 
 - `navigation.py` → Navigation logic and control (gap selection + steering)  
-- `barrier.py` → QP-based virtual barrier obstacle avoidance  
+- `barrier.py` → QP-based virtual barrier obstacle avoidance
+- `nav_bonus.py` → Bonus utilizing the RGB-D Camera for enhanced forward detection
 - `occupancygridmap.py` → Probabilistic occupancy grid mapping  
 - `simulator.launch` → Launches the simulation environment  
 - `experiment.launch` → Runs full system setup  
@@ -134,10 +156,10 @@ roslaunch simulator.launch
 
 ---
 
-### 3. Run Navigation Node
+### 3. Run Virtual Barrier Node
 
 ```bash
-rosrun navigation.py
+rosrun barrier.py
 ```
 
 ---
