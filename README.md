@@ -20,9 +20,8 @@ The system runs on an **NVIDIA Jetson Nano**, handling real-time sensor processi
 
 ### Hardware Setup
 <p align="center">
-  <img src="Demo/AEV1.png" width="300"/>
+  <img src="Demo/AEV1.png" width="500"/>
   <img src="Demo/AEV2.png" width="300"/>
-  <img src="Demo/AEV3.png" width="300"/>
 </p>
 
 ---
