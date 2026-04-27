@@ -10,12 +10,12 @@ The system runs on an **NVIDIA Jetson Nano**, handling real-time sensor processi
 
 ### Real-World Testing
 <p align="center">
-  <img src="Demo/demo.gif" width="600"/>
+  <img src="Demo/demo.gif" width="400"/>
 </p>
 
 ### RViz Visualization
 <p align="center">
-  <img src="Demo/RVIZ.png" width="500"/>
+  <img src="Demo/RVIZ.png" width="300"/>
 </p>
 
 ### Hardware Setup
