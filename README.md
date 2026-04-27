@@ -9,16 +9,21 @@ The system runs on an **NVIDIA Jetson Nano**, handling real-time sensor processi
 ## 🎥 Demo
 
 ### Real-World Testing
-![AEV Driving](Demo/demo.gif)
+<p align="center">
+  <img src="Demo/demo.gif" width="600"/>
+</p>
 
 ### RViz Visualization
-![RViz](Demo/RVIZ.png)
+<p align="center">
+  <img src="Demo/RVIZ.png" width="500"/>
+</p>
 
 ### Hardware Setup
-![AEV](Demo/AEV1.png)
-![AEV](Demo/AEV2.png)
-![AEV](Demo/AEV3.png)
-
+<p align="center">
+  <img src="Demo/AEV1.png" width="300"/>
+  <img src="Demo/AEV2.png" width="300"/>
+  <img src="Demo/AEV3.png" width="300"/>
+</p>
 
 ---
 
