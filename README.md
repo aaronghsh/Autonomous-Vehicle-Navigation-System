@@ -155,10 +155,10 @@ roslaunch simulator.launch
 
 ---
 
-### 3. Run Navigation Node
+### 3. Run Virtual Barrier Node
 
 ```bash
-rosrun navigation.py
+rosrun barrier.py
 ```
 
 ---
